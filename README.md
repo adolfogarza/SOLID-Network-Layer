@@ -1,2 +1,3 @@
-# SwiftMarvelAPI
-A sample code that consumes the Marvel API endpoint to display top rated characters. Created a SOLID based network manager library, modularizing features to avoid code repetition with a high level of cohesion and low coupling.
+# SOLID-Marvel-List
+
+A swift project that presents the user with a tableview containing the top rated marvel charatecters, this serves as an excercise and my personal take on how to implement a SOLID approach on the iOS/Swift environment. The networking service layer implements a software design that allows it to comply with the SOLID principles, this means that individual pieces are responsible for one task only, that extending the code does not require to modify classes, that intent is not replaced when looking at subclasses, that there are no monolothic approaches & that higher implementations depend on abstractions and not on details. Among other this this provides a well modularized design that prevents code repetition and provides a high level of cohesion with low coupling.
